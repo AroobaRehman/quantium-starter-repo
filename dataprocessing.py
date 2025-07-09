@@ -13,7 +13,7 @@ print("csv files found: ", data_files)
 
 def process_files(file_path):
     df = pd.read_csv(file_path)
-    df = df[df['product'] == 'Pink Morsels'].copy()
+    df = df[df['product'] == 'pink morsel'].copy()
     df['price'] = df['price'].str.replace('$','',regex=False).astype(float)
     df['sales'] = df['price'] * df['quantity']
     return df[['sales','date','region']]
