@@ -1,0 +1,42 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Verdana;
+}
+
+.app-header {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: thin lightgray solid;
+    color: #333;
+}
+
+.radio-group{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.radio-buttons label{
+    margin: 5px 10px;
+    display: inline-block;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #eee;
+    color:#333;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+
+.section-label{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #444;
+}
